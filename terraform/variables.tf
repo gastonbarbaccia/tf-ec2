@@ -19,6 +19,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "EC2 SSH key name"
   type        = string
+  default     = "dev"
 }
 
 variable "subnet_id" {
